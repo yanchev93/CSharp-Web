@@ -31,9 +31,7 @@ namespace HttpClientDemo
                 Console.WriteLine(requestedString);
 
                 string html = $"<h1> Hello World from Teo. <br>" +
-                    $"I'm currently in Portalnd, ME, USA and the time here is {DateTime.Now} </h1>";
-
-
+                    $"I'm currently in Portalnd, ME, USA and the time here is {DateTime.Now.ToString("dd/mm/yy - hh:mm tt")} </h1>";
 
                 string response = "HTTP/1.1 200 OK" + NEW_LINE +
                     "Server: MyFirstWebServer 2021" + NEW_LINE +
