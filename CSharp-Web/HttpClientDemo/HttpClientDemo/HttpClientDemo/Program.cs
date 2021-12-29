@@ -39,12 +39,14 @@ namespace HttpClientDemo
                     "Server: MyFirstWebServer 2021" + NEW_LINE +
                     "Content-Type: text/html; charset=utf-8" + NEW_LINE +
                     "Content-Length: " + html.Length + NEW_LINE +
-                    NEW_LINE + html;
+                    NEW_LINE + html + NEW_LINE;
 
                 byte[] responseBytes = Encoding.UTF8.GetBytes(response);
                 stream.Write(responseBytes);
 
+                stream.Close();
                 Console.WriteLine(new string('=', 50));
+
                 // stream.Write();
                 // stream.Read();
             }
