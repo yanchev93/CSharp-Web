@@ -12,6 +12,7 @@ namespace HttpClientDemo
     {
         static async Task Main(string[] args)
         {
+            const string NEW_LINE = "\r\n";
             TcpListener tcpListener = new TcpListener(IPAddress.Loopback, 8080);
             tcpListener.Start();
 
@@ -27,8 +28,21 @@ namespace HttpClientDemo
 
                 var requestedString =
                     Encoding.UTF8.GetString(buffer, byteLength, length);
-
                 Console.WriteLine(requestedString);
+
+                string html = $"<h1> Hello World from Teo. <br>" +
+                    $"I'm currently in Portalnd, ME, USA and the time here is {DateTime.Now} </h1>";
+
+
+
+                string response = "HTTP/1.1 200 OK" + NEW_LINE +
+                    "Server: MyFirstWebServer 2021" + NEW_LINE +
+                    "Content-Type: text/html; charset=utf-8" + NEW_LINE +
+                    "Content-Length: " + html.Length + NEW_LINE +
+                    NEW_LINE + html;
+
+                byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                stream.Write(responseBytes);
 
                 Console.WriteLine(new string('=', 50));
                 // stream.Write();
