@@ -51,7 +51,7 @@ namespace HttpClientDemo
                 "Server: MyFirstWebServer 2021" + NEW_LINE +
                 //"Location: https://www.google.com" + NEW_LINE +
                 "Content-Type: text/html; charset=utf-8" + NEW_LINE + // NB!! Very Important for the browser!! NB!!
-                "Set-Cookie: sid=7812asd3918238asdag79123; Expires=" + DateTime.UtcNow.AddHours(2).ToString("R") + NEW_LINE +
+                "Set-Cookie: sid=7812asd3918238asdag79123; HttpOnly; Expires=" + DateTime.UtcNow.AddHours(2).ToString("R") + NEW_LINE +
                 "Content-Length: " + html.Length + NEW_LINE +
                 NEW_LINE + html + NEW_LINE;
 
