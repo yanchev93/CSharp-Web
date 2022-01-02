@@ -38,11 +38,11 @@ namespace HttpClientDemo
             Console.WriteLine(requestedString);
 
 
-            bool sessionSet = false;
-            if (requestedString.Contains("sid="))
-            {
-                sessionSet = true;
-            }
+            //bool sessionSet = false;
+            //if (requestedString.Contains("sid="))
+            //{
+            //    sessionSet = true;
+            //}
 
             string html = $"<h1> Hello World from Teo. <br>" +
                 $"I'm currently in Portalnd, ME, USA and the time here is {DateTime.Now.ToString("dd/mm/yy - hh:mm tt")} </h1>";
