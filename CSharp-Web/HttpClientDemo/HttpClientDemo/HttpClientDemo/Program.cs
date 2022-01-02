@@ -36,8 +36,7 @@ namespace HttpClientDemo
                 string response = "HTTP/1.1 200 OK" + NEW_LINE +
                     "Server: MyFirstWebServer 2021" + NEW_LINE +
                     //"Location: https://www.google.com" + NEW_LINE +
-                    "Content-Type: text/plain; charset=utf-8" + NEW_LINE + // NB!! Very Important for the browser!! NB!!
-                    $"Content-Disposition: attachment; filename=myFile.txt" + NEW_LINE +
+                    "Content-Type: text/html; charset=utf-8" + NEW_LINE + // NB!! Very Important for the browser!! NB!!
                     "Content-Length: " + html.Length + NEW_LINE +
                     NEW_LINE + html + NEW_LINE;
 

@@ -1,0 +1,16 @@
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo.exe
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo.deps.json
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo.runtimeconfig.json
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo.runtimeconfig.dev.json
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\ref\HttpClientDemo.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo.pdb
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo.csproj.AssemblyReference.cache
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo.AssemblyInfoInputs.cache
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo.AssemblyInfo.cs
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo.csproj.CoreCompileInputs.cache
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\ref\HttpClientDemo.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo.pdb
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\HttpClientDemo\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo.genruntimeconfig.cache

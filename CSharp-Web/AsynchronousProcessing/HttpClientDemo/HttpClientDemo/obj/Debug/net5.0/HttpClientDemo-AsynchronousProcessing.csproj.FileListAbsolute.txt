@@ -1,0 +1,16 @@
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.exe
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.deps.json
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.runtimeconfig.json
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.runtimeconfig.dev.json
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\ref\HttpClientDemo-AsynchronousProcessing.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\bin\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.pdb
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.csproj.AssemblyReference.cache
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.AssemblyInfoInputs.cache
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.AssemblyInfo.cs
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.csproj.CoreCompileInputs.cache
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\ref\HttpClientDemo-AsynchronousProcessing.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.pdb
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\AsynchronousProcessing\HttpClientDemo\HttpClientDemo\obj\Debug\net5.0\HttpClientDemo-AsynchronousProcessing.genruntimeconfig.cache
