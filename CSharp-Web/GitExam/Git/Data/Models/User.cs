@@ -14,7 +14,7 @@
 
         [Key]
         [Required]
-        public string Id { get; set; } = Guid.NewGuid().ToString();
+        public string Id { get; init; } = Guid.NewGuid().ToString();
 
         [Required]
         [StringLength(20, MinimumLength = 5)]
@@ -26,9 +26,9 @@
         [Required]
         public string Password { get; set; }
 
-        public ICollection<Repository> Repositories { get; set; }
+        public ICollection<Repository> Repositories { get; init; }
 
-        public ICollection<Commit> Commits { get; set; }
+        public ICollection<Commit> Commits { get; init; }
 
     }
 }

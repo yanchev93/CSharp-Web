@@ -6,18 +6,19 @@
     using MyWebServer.Controllers;
     using MyWebServer.Results.Views;
     using Microsoft.EntityFrameworkCore;
+    using Git.Services;
+
     public class Startup
     {
         public static async Task Main()
             => await HttpServer
-                .WithRoutes(routes => routes
-                    .MapStaticFiles()
-                    .MapControllers())
+                .WithRoutes(routes => routes.MapStaticFiles().MapControllers())
                 .WithServices(services => services
                 .Add<ApplicationDbContext>()
+                .Add<IValidator, Validator>
                 .Add<IViewEngine, CompilationViewEngine>())
                 .WithConfiguration<ApplicationDbContext>(context => context
-                    .Database.Migrate())
+                .Database.Migrate())
                 .Start();
     }
 }

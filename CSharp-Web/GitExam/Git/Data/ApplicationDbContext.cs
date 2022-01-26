@@ -21,7 +21,23 @@
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Commit>()
+                .HasOne(c => c.Creator)
+                .WithMany(c => c.Commits)
+                .HasForeignKey(c => c.CreatorId)
+                .OnDelete(DeleteBehavior.Restrict);
 
+            modelBuilder.Entity<Repository>()
+                .HasOne(r => r.Owner)
+                .WithMany(o => o.Repositories)
+                .HasForeignKey(c => c.OwnerId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Commit>()
+                .HasOne(c => c.Repository)
+                .WithMany(r => r.Commits)
+                .HasForeignKey(c => c.RepositoryId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
