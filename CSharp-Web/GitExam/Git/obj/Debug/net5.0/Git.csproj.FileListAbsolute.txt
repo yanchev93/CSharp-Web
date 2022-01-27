@@ -165,3 +165,4 @@ D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\Gi
 D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\GitExam\Git\obj\Debug\net5.0\ref\Git.dll
 D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\GitExam\Git\obj\Debug\net5.0\Git.pdb
 D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\GitExam\Git\obj\Debug\net5.0\Git.genruntimeconfig.cache
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\GitExam\Git\bin\Debug\net5.0\Views\Error.cshtml

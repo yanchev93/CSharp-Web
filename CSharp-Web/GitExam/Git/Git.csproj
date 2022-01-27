@@ -24,7 +24,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Views\Error.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MyWebServer\MyWebServer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Commits\" />
   </ItemGroup>
   
 </Project>

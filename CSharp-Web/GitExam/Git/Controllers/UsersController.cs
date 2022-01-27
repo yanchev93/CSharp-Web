@@ -53,7 +53,7 @@
             var user = new User
             {
                 Username = model.Username,
-                Password = model.Password,
+                Password = this.passwordHasher.HashPassword(model.Password),
                 Email = model.Email,
             };
 
@@ -87,7 +87,7 @@
 
             this.SignIn(userId);
 
-            return Redirect("Repositories/All");
+            return Redirect("/Repositories/All");
         }
 
         public HttpResponse Logout()

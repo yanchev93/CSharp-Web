@@ -15,7 +15,8 @@
                 .WithRoutes(routes => routes.MapStaticFiles().MapControllers())
                 .WithServices(services => services
                 .Add<ApplicationDbContext>()
-                .Add<IValidator, Validator>
+                .Add<IValidator, Validator>()
+                .Add<IPasswordHasher, PasswordHasher>()
                 .Add<IViewEngine, CompilationViewEngine>())
                 .WithConfiguration<ApplicationDbContext>(context => context
                 .Database.Migrate())
