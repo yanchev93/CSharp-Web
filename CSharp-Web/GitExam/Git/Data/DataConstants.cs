@@ -9,7 +9,10 @@
         public const int UserMinPassword = 6;
         public const string UserEmailRegularExpression = @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$";
 
+        public const int RepositoryMinName = 3;
         public const int RepositoryMaxName = 10;
+        public const string RepositoryTypePublic = "Public";
+        public const string RepositoryTypePrivate = "Private";
 
         public const int CommitMinDescription = 5;
 
