@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModels\" />
+    <None Remove="Views\Error.cshtml" />
   </ItemGroup>
 
 </Project>
