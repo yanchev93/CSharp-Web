@@ -5,7 +5,12 @@
       "ProjectGuid": "a9dd104e-0424-498a-9372-d3b663f236f0",
       "DisplayName": "CarShop",
       "ColorIndex": 0
+    },
+    "b1f82939-1c64-439c-8897-cbdc6a015d55": {
+      "ProjectGuid": "b1f82939-1c64-439c-8897-cbdc6a015d55",
+      "DisplayName": "MyWebServer",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

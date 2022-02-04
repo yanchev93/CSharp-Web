@@ -20,17 +20,9 @@
         [Authorize]
         public HttpResponse CarIssues(string carId)
         {
-            var user = this.db.Users.Find(User.Id);
-            if (!user.IsMechanic)
+            if (!this.UserHasAccess(carId))
             {
-                var userOwnsCar = this.db
-                    .Cars
-                    .Any(c => c.Id == carId && c.OwnerId == this.User.Id);
-
-                if (!userOwnsCar)
-                {
-                    return Unauthorized();
-                }
+                return Unauthorized();
             }
 
             var carIssues = this.db
@@ -43,9 +35,10 @@
                     Year = c.Year,
                     Issues = c.Issues.Select(i => new IssuesCarModel
                     {
-                        Description = i.Description,
-                        IsFixed = i.IsFixed ? "Yes" : "Not Yet",
                         IssueId = i.Id,
+                        Description = i.Description,
+                        IsFixedButton = i.IsFixed,
+                        IsFixed = i.IsFixed ? "Yes" : "Not Yet",
                     }).ToList()
                 }).FirstOrDefault();
 
@@ -62,6 +55,16 @@
         [Authorize]
         public HttpResponse Add(IssueDescriptionModel model)
         {
+            if (!this.UserHasAccess(model.CarId))
+            {
+                return Unauthorized();
+            }
+
+            if (model.Description.Length < 5)
+            {
+                return this.Error("Description must be more than 5 characters long.");
+            }
+
             var issue = new Issue
             {
                 CarId = model.CarId,
@@ -82,10 +85,10 @@
         [Authorize]
         public HttpResponse Fix(string issueId, string carId)
         {
-            var user = this.db.Users.Find(User.Id);
+            var user = this.db.Users.Find(this.User.Id);
             if (!user.IsMechanic)
             {
-                return this.Redirect("/Cars/All");
+                return Unauthorized();
             }
 
             var issue = this.db.Issues
@@ -95,7 +98,44 @@
 
             this.db.SaveChanges();
 
-            return this.View();
+            return this.Redirect($"/Issues/CarIssues?carId={carId}");
+        }
+
+        public HttpResponse Delete(string issueId, string carId)
+        {
+            //check if this car belongs to the logged user
+            //check if the user is mechanic
+            if (!this.UserHasAccess(carId))
+            {
+                return Unauthorized();
+            }
+
+            var issue = this.db.Issues.Find(issueId);
+
+            this.db.Issues.Remove(issue);
+            this.db.SaveChanges();
+
+            return this.Redirect($"/Issues/CarIssues?carId={carId}");
+
+        }
+
+        public bool UserHasAccess(string carId)
+        {
+            var user = this.db.Users.Find(User.Id);
+
+            if (!user.IsMechanic)
+            {
+                var userOwnsCar = this.db.Cars
+                    .Any(c => c.Id == carId && c.OwnerId == this.User.Id);
+
+                if (!userOwnsCar)
+                {
+                    return false;
+                }
+
+            }
+
+            return true;
         }
     }
 }

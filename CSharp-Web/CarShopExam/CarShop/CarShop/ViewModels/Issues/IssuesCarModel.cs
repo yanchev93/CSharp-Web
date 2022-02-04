@@ -6,6 +6,8 @@
 
         public string IsFixed { get; init; }
 
+        public bool IsFixedButton { get; init; }
+
         public string IssueId { get; init; }
 
     }
