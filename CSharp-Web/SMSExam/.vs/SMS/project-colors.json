@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "df586722-c25c-4bdb-849b-b055b75d0166": {
+      "ProjectGuid": "df586722-c25c-4bdb-849b-b055b75d0166",
+      "DisplayName": "SMS",
+      "ColorIndex": 0
+    },
+    "0d98f926-0113-4d1b-893e-c7fce8efc8b4": {
+      "ProjectGuid": "0d98f926-0113-4d1b-893e-c7fce8efc8b4",
+      "DisplayName": "MyWebServer",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

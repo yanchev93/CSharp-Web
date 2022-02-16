@@ -1,0 +1,15 @@
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\bin\Debug\net5.0\MyWebServer.deps.json
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\bin\Debug\net5.0\MyWebServer.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\bin\Debug\net5.0\ref\MyWebServer.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\bin\Debug\net5.0\MyWebServer.pdb
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\obj\Debug\net5.0\MyWebServer.csproj.AssemblyReference.cache
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\obj\Debug\net5.0\MyWebServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\obj\Debug\net5.0\MyWebServer.AssemblyInfoInputs.cache
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\obj\Debug\net5.0\MyWebServer.AssemblyInfo.cs
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\obj\Debug\net5.0\MyWebServer.csproj.CoreCompileInputs.cache
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\obj\Debug\net5.0\MyWebServer.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\obj\Debug\net5.0\ref\MyWebServer.dll
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\obj\Debug\net5.0\MyWebServer.pdb
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\bin\Debug\net5.0\MyWebServer.runtimeconfig.json
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\bin\Debug\net5.0\MyWebServer.runtimeconfig.dev.json
+D:\Programs\01. SoftUni\ASP.NET\ASP.NET Core\CSharp-Web\CSharp-Web\CSharp-Web\SMSExam\MyWebServer\obj\Debug\net5.0\MyWebServer.genruntimeconfig.cache
