@@ -26,13 +26,13 @@
 
             if (user == null || cart == null || product == null)
             {
-                return this.Error("Ibasi mecha!");
+                return this.Error("You should be logged in. The cart should be not empty. Should have valid product.");
             }
 
-            cart.Products.Add(product);
+            product.CartId = cart.Id;
             this.db.SaveChanges();
 
-            return this.Redirect("/Products/Add");
+            return this.Redirect("/Carts/Details");
         }
 
         [Authorize]

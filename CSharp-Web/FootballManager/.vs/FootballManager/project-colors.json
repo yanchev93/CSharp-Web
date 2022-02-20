@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "22a363ba-81d7-46b5-8a0a-14381433dfd3": {
+      "ProjectGuid": "22a363ba-81d7-46b5-8a0a-14381433dfd3",
+      "DisplayName": "FootballManager",
+      "ColorIndex": 0
+    },
+    "b8c1a7f1-a91d-4684-b68c-d5b821e00562": {
+      "ProjectGuid": "b8c1a7f1-a91d-4684-b68c-d5b821e00562",
+      "DisplayName": "MyWebServer",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

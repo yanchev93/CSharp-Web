@@ -21,7 +21,7 @@
         public decimal Price { get; init; }
 
         [Required]
-        public string CartId { get; init; }
+        public string CartId { get; set; }
 
         [Required]
         public Cart Cart { get; init; }

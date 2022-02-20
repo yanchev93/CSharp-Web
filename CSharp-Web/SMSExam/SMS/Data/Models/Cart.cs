@@ -10,7 +10,7 @@
     {
         public Cart()
         {
-            this.Products = new HashSet<Product>();
+            this.Products = new List<Product>();
         }
 
         [Key]
